@@ -19,12 +19,12 @@
 
 ### Proposta de Projeto
 
-- [ ] Problema e Motivação
-- [ ] Background
-- [ ] Objetivos
-- [ ] Abordagem
-- [ ] Materiais (dados incluídos)
-- [ ] Avaliação
+- [x] Problema e Motivação
+- [x] Background
+- [x] Objetivos
+- [x] Abordagem
+- [x] Materiais (dados incluídos)
+- [x] Avaliação
 
 ### Paper
 
