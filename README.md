@@ -11,11 +11,11 @@
 
 ## Metas
 
-| Meta              | Data                  |
-| ----------------- | --------------------- |
-| Proposta          | 15 de outubro de 2022 |
-| Projeto Final     | 5 de dezembro de 2022 |
-| Defesa Oral       | A definir             |
+| Meta              | Data                   | Nova data              |
+| ----------------- | ---------------------- | ---------------------- |
+| Proposta          | 15 de outubro de 2022  |                        |
+| Projeto Final     | 5 de dezembro de 2022  | 11 de dezembro de 2022 |
+| Defesa Oral       | 14 de dezembro de 2022 |
 
 ### Proposta de Projeto
 
