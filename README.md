@@ -55,13 +55,13 @@
 4. Na secção "Input to get Recommendations" será pedido para inserir a liga em que deseja procurar, seguida da equipa e depois o nome do jogador (no caso de jogadores sem clube, deve-se escolher "Free agent" como liga e depois aparecerão os nomes dos jogadores, sendo necessário escolher um deles);
 
 5. Caso se pretenda filtrar as recomendações por pé preferencial, idade, intensidade no ataque e na defesa ou  liga em que o jogador atua, deve-se alterar no código na secção "Get Recommendations". As variáveis a alterar encontram-se declaradas antes de chamar a função getRecommendations, sendo:
-    5.1. Idade: "age_default"
+    5.1. Idade: "age_default" <br>
          - "All": todas as idades <br>
-         - [X, Y]: idades de X a Y
-    5.2. Pé preferencial: "foot"
-         - "All": ambos
-         - "Left": pé esquerdo
-         - "Right": pé direito
+         - [X, Y]: idades de X a Y <br>
+    5.2. Pé preferencial: "foot" <br>
+         - "All": ambos <br>
+         - "Left": pé esquerdo <br>
+         - "Right": pé direito <br>
     5.3. Intensidade no ataque e na defesa: "workrate" 
          - "All": tudo
          - "Low/Medium": pelo menos intensidade Low defensiva e Medium atacante
