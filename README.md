@@ -49,7 +49,7 @@
 2. O código encontra-se divido por partes (como visto em cima) mas pode ser corrido por inteiro;
 
 3. O cálculo da semelhança pode ser feita de duas formas:
-    1. Ao correr a secção de  "Calculation of player similarity", será feita todo o cálculo para uso nas recomendações, o que poderá levar algum tempo;
+    1. Ao correr a secção de  "Calculation of player similarity", será feita todo o cálculo para uso nas recomendações, o que poderá levar algum tempo (necessário na primeira vez);
 
     2. Ao avançar a secção de "Calculation of player similarity" (sem correr), será feita apenas a leitura do ficheiro "engine.pickle" onde se encontram guardadas várias semelhanças já calculadas do dataset atual (apenas funciona após correr uma primeira vez a secção "Calculation of player similarity").
 
