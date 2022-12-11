@@ -48,11 +48,11 @@
 
 2. O código encontra-se divido por partes (como visto em cima) mas pode ser corrido por inteiro;
 
-3. O cálculo da semlhança pode ser feita de duas formas:
+3. O cálculo da semelhança pode ser feita de duas formas:
     1. Ao correr a secção de  "Calculation of player similarity", será feita todo o cálculo para uso nas recomendações, o que poderá levar algum tempo;
     2. Ao avançar a secção de "Calculation of player similarity" (sem correr), será feita apenas a leitura do ficheiro "engine.pickle" onde se encontram guardadas várias semelhanças já calculadas do dataset atual.
 
-4. Na secção "Input to get Recommendations" será pedido para inserir a liga em que deseja procurar seguida da equipa e depois o jogador;
+4. Na secção "Input to get Recommendations" será pedido para inserir a liga em que deseja procurar, seguida da equipa e depois o nome do jogador (no caso de jogadores sem clube, deve-se escolher "Free agent" como liga e depois aparecerão os nomes dos jogadores, sendo necessário escolher um deles);
 
 5. Com o jogador escolhido será mostrado as recomendações e explicações do resultado.
 
