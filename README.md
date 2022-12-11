@@ -55,6 +55,7 @@
 4. Na secção "Input to get Recommendations" será pedido para inserir a liga em que deseja procurar, seguida da equipa e depois o nome do jogador (no caso de jogadores sem clube, deve-se escolher "Free agent" como liga e depois aparecerão os nomes dos jogadores, sendo necessário escolher um deles);
 
 5. Caso se pretenda filtrar as recomendações por pé preferencial, idade, intensidade no ataque e na defesa ou  liga em que o jogador atua, deve-se alterar no código na secção "Get Recommendations". As variáveis a alterar encontram-se declaradas antes de chamar a função getRecommendations, sendo:
+
     5.1. Idade: "age_default" <br>
          - "All": todas as idades <br>
          - [X, Y]: idades de X a Y <br>
@@ -62,19 +63,19 @@
          - "All": ambos <br>
          - "Left": pé esquerdo <br>
          - "Right": pé direito <br>
-    5.3. Intensidade no ataque e na defesa: "workrate" 
-         - "All": tudo
-         - "Low/Medium": pelo menos intensidade Low defensiva e Medium atacante
-         - "Low/High": pelo menos intensidade Low defensiva e High atacante
-         - "Medium/Low": pelo menos intensidade Medium defensiva e Low atacante
-         - "Medium/Medium": pelo menos intensidade Medium defensiva e Medium atacante
-         - "Medium/High": pelo menos intensidade Medium defensiva e High atacante
-         - "High/Low": pelo menos intensidade High defensiva e Low atacante
-         - "High/Medium": pelo menos intensidade High defensiva e Medium atacante
-         - "High/High": intensidade High defensiva e High atacante
-    5.4. Liga em que joga: "league"
-         - "All": todas
-         - "Y": nome da liga que se pretende
+    5.3. Intensidade no ataque e na defesa: "workrate" <br>
+         - "All": tudo <br>
+         - "Low/Medium": pelo menos intensidade Low defensiva e Medium atacante <br>
+         - "Low/High": pelo menos intensidade Low defensiva e High atacante <br>
+         - "Medium/Low": pelo menos intensidade Medium defensiva e Low atacante <br>
+         - "Medium/Medium": pelo menos intensidade Medium defensiva e Medium atacante <br>
+         - "Medium/High": pelo menos intensidade Medium defensiva e High atacante <br>
+         - "High/Low": pelo menos intensidade High defensiva e Low atacante <br>
+         - "High/Medium": pelo menos intensidade High defensiva e Medium atacante <br>
+         - "High/High": intensidade High defensiva e High atacante <br>
+    5.4. Liga em que joga: "league" <br>
+         - "All": todas <br>
+         - "Y": nome da liga que se pretende <br>
 
 6. Com o jogador escolhido, serão mostradas as recomendações e explicações do resultado.
 
