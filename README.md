@@ -50,32 +50,33 @@
 
 3. O cálculo da semelhança pode ser feita de duas formas:
     1. Ao correr a secção de  "Calculation of player similarity", será feita todo o cálculo para uso nas recomendações, o que poderá levar algum tempo;
+
     2. Ao avançar a secção de "Calculation of player similarity" (sem correr), será feita apenas a leitura do ficheiro "engine.pickle" onde se encontram guardadas várias semelhanças já calculadas do dataset atual (apenas funciona após correr uma primeira vez a secção "Calculation of player similarity").
 
 4. Na secção "Input to get Recommendations" será pedido para inserir a liga em que deseja procurar, seguida da equipa e depois o nome do jogador (no caso de jogadores sem clube, deve-se escolher "Free agent" como liga e depois aparecerão os nomes dos jogadores, sendo necessário escolher um deles);
 
-5. Caso se pretenda filtrar as recomendações por pé preferencial, idade, intensidade no ataque e na defesa ou  liga em que o jogador atua, deve-se alterar no código na secção "Get Recommendations". As variáveis a alterar encontram-se declaradas antes de chamar a função getRecommendations, sendo:
+5. Caso se pretenda filtrar as recomendações por pé preferencial, idade, intensidade no ataque e na defesa ou  liga em que o jogador atua, deve-se alterar no código na secção "Get Recommendations". As variáveis a alterar encontram-se declaradas antes de chamar a função "getRecommendations", sendo:
 
-    5.1. Idade: "age_default" <br>
-         - "All": todas as idades <br>
-         - [X, Y]: idades de X a Y <br>
-    5.2. Pé preferencial: "foot" <br>
-         - "All": ambos <br>
-         - "Left": pé esquerdo <br>
-         - "Right": pé direito <br>
-    5.3. Intensidade no ataque e na defesa: "workrate" <br>
-         - "All": tudo <br>
-         - "Low/Medium": pelo menos intensidade Low defensiva e Medium atacante <br>
-         - "Low/High": pelo menos intensidade Low defensiva e High atacante <br>
-         - "Medium/Low": pelo menos intensidade Medium defensiva e Low atacante <br>
-         - "Medium/Medium": pelo menos intensidade Medium defensiva e Medium atacante <br>
-         - "Medium/High": pelo menos intensidade Medium defensiva e High atacante <br>
-         - "High/Low": pelo menos intensidade High defensiva e Low atacante <br>
-         - "High/Medium": pelo menos intensidade High defensiva e Medium atacante <br>
-         - "High/High": intensidade High defensiva e High atacante <br>
-    5.4. Liga em que joga: "league" <br>
-         - "All": todas <br>
-         - "Y": nome da liga que se pretende <br>
+    1. Idade: "age_default" 
+         - "All": todas as idades 
+         - [X, Y]: idades de X a Y 
+    2. Pé preferencial: "foot" 
+         - "All": ambos 
+         - "Left": pé esquerdo 
+         - "Right": pé direito 
+    3. Intensidade no ataque e na defesa: "workrate" 
+         - "All": tudo 
+         - "Low/Medium": pelo menos intensidade Low defensiva e Medium atacante 
+         - "Low/High": pelo menos intensidade Low defensiva e High atacante 
+         - "Medium/Low": pelo menos intensidade Medium defensiva e Low atacante 
+         - "Medium/Medium": pelo menos intensidade Medium defensiva e Medium atacante 
+         - "Medium/High": pelo menos intensidade Medium defensiva e High atacante 
+         - "High/Low": pelo menos intensidade High defensiva e Low atacante 
+         - "High/Medium": pelo menos intensidade High defensiva e Medium atacante 
+         - "High/High": intensidade High defensiva e High atacante 
+    4. Liga em que joga: "league" 
+         - "All": todas 
+         - "Y": nome da liga que se pretende 
 
 6. Com o jogador escolhido, serão mostradas as recomendações e explicações do resultado.
 
