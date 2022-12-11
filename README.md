@@ -56,7 +56,7 @@
 
 5. Caso se pretenda filtrar as recomendações por pé preferencial, idade, intensidade no ataque e na defesa ou  liga em que o jogador atua, deve-se alterar no código na secção "Get Recommendations". As variáveis a alterar encontram-se declaradas antes de chamar a função getRecommendations, sendo:
     5.1. Idade: "age_default"
-         - "All": todas as idades
+         - "All": todas as idades <br>
          - [X, Y]: idades de X a Y
     5.2. Pé preferencial: "foot"
          - "All": ambos
