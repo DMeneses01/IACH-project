@@ -82,4 +82,5 @@
 
 7. Com o jogador escolhido, serão mostradas as recomendações e explicações do resultado.
 
-> **_Nota:_**  Todas as instalações necessárias poderão ser realizadas através da primeira secção.
+> **_Nota 1:_**  Todas as instalações necessárias poderão ser realizadas através da primeira secção.
+> **_Nota 2:_**  O código está desenvolvido para fazer recomendações dos primeiros 5772 jogadores (30% do dataset) por uma questão de tempo de execução. Se se pretender executar com todos os jogadores do dataset disponíveis, basta remover do código todas as ocorrências de 5772.
