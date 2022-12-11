@@ -42,7 +42,7 @@
 
 <br/>
 
-## Etapas para a execução do seu projeto
+## Etapas para a execução do código
 
 1. Todo o código encontra-se no ficheiro "recsys_football.ipynb";
 
