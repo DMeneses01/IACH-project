@@ -25,7 +25,7 @@
 
 | Código                           | Traduzido                          | 
 | ----------------------           | ----------------------             | 
-| Installitions                    | Instalações                        |                      
+| Installations                    | Instalações                        |                      
 | Imports                          | Imports                            | 
 | Read Data                        | Leitura do Dataset                 |
 | Basic idea of initial dataset    | Ideia básica do Dataset original   |
